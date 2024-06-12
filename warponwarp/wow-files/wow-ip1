@@ -1,0 +1,6 @@
+warp://162.159.195.93:2506/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://162.159.195.93:2506/MTU1280#Main1🇩🇪
+warp://188.114.97.20:988/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://188.114.97.20:988/MTU1280#Main2🇩🇪
+warp://auto/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://auto/MTU1280#Main1🇩🇪
+warp://auto/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://auto/MTU1280#Main2🇩🇪
+warp://2606:4700:d0::cc2d:3eab:d6f8:0685:987/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://162.159.192.35:8742/MTU1280#Main1🇩🇪
+warp://2606:4700:d0::ec2b:eb34:8603:652f:988/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://188.114.97.20:988/MTU1280#Main2🇩🇪
