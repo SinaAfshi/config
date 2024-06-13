@@ -1,8 +1,5 @@
-dhcp://auto#dhcp://auto
-h3://8.8.4.4/dns-query#h3://8.8.4.4/dns-query
-h3://8.8.8.8/dns-query#h3://8.8.8.8/dns-query
 https://1.0.0.1/dns-query#https://1.0.0.1/dns-query
-https://1.0.0.1l/dns-query#https://1.0.0.1l/dns-query
+https://1.0.0.1/dns-query#https://1.0.0.1l/dns-query
 https://1.1.1.1/dns-query#https://1.1.1.1/dns-query
 https://120.53.53.53/dns-query#https://120.53.53.53/dns-query
 https://223.5.5.5/dns#https://223.5.5.5/dns
@@ -14,8 +11,8 @@ https://cloudflare-dns.com/dns-query#https://cloudflare-dns.com/dns-query
 https://dns.alidns.com/dns-query#https://dns.alidns.com/dns-query
 https://dns.google/dns-query#https://dns.google/dns-query
 https://doh.pub/dns-query#https://doh.pub/dns-query
-https://l.0.0.l/dns-query#https://l.0.0.l/dns-query
-https://l.12.12.12/dns-query#https://l.12.12.12/dns-query
+https://1.0.0.l/dns-query#https://l.0.0.l/dns-query
+https://1.12.12.12/dns-query#https://l.12.12.12/dns-query
 quic://dns.adguard.com#quic://dns.adguard.com
 quic://dns.adguard.com:784#quic://dns.adguard.com:784
 tcp://1.1.1.1#tcp://1.1.1.1
@@ -49,8 +46,8 @@ udp://8.8.4.4#udp://8.8.4.4
 udp://8.8.8.8#udp://8.8.8.8
 udp://94.140.14.14#udp://94.140.14.14
 udp://94.140.15.15#udp://94.140.15.15
-udp://l.0.0.l#udp://l.0.0.l
-udp://l.l.l.l#udp://l.l.l.l
+udp://1.0.0.1#udp://l.0.0.l
+udp://1.1.1.1#udp://l.l.l.l
 https://1.1.1.1:53#https://1.1.1.1:53
 1.1.1.1:53#1.1.1.1:53
 https://1.1.1.1:853#https://1.1.1.1:853
