@@ -1,7 +1,7 @@
 {
   "log": {
     "level": "warn",
-    "output": "box.log",
+    "output": "app.log",
     "timestamp": true
   },
   "dns": {
