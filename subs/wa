@@ -1,6 +1,6 @@
 warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir1&&detour=warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#de1
 warp://8E39MuN4-E8296ibH-6u81L9Eh@auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir2&&detour=warp://8E39MuN4-E8296ibH-6u81L9Eh@auto?ifp=10-20&ifps=20-60&ifpd=5-10#de2
-warp://mo8X560a-j068MDQ3-KLxA5312@auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir3&&detour=warp://mo8X560a-j068MDQ3-KLxA5312@auto/?ifp=10-20&ifps=20-60&ifpd=5-10#de3
+warp://071w4yeJ-Rt25T7d3-0v1o8hm5@auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir3&&detour=warp://071w4yeJ-Rt25T7d3-0v1o8hm5@auto/?ifp=10-20&ifps=20-60&ifpd=5-10#de3
 warp://188.114.98.44:7152?ifp=10-20&ifps=20-60&ifpd=5-10##188.114.98.44:7152
 warp://162.159.192.0:7152?ifp=10-20&ifps=20-60&ifpd=5-10#162.159.192.0:7152
 warp://162.159.192.237:7152?ifp=10-20&ifps=20-60&ifpd=5-10#162.159.192.237:7152
@@ -45,9 +45,9 @@ warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#Warp_5-10_40-100_10-20
 warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#Warp_5-10_40-100_30-50
 warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#Warp_5-10_40-100_300-500
 warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#to the rain&&detour=warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#i set fire
-warp://36jIA4Q0-Yd8xk269-eO417kz9@auto?ifp=10-20&ifps=20-60&ifpd=5-10#36jIA4Q0-1&&detour=warp://36jIA4Q0-Yd8xk269-eO417kz9@auto?ifp=10-20&ifps=20-60&ifpd=5-10#36jIA4Q0-2
+warp://9ynH052p-w89Nko06-f3S57X2y@auto?ifp=10-20&ifps=20-60&ifpd=5-10#36jIA4Q0-1&&detour=warp://9ynH052p-w89Nko06-f3S57X2y@auto?ifp=10-20&ifps=20-60&ifpd=5-10#36jIA4Q0-2
 warp://162.159.195.37:968?ifp=10-20&ifps=20-60&ifpd=5-10#xawir-Warp 🇮🇷&&detour=warp://162.159.192.45:2506?ifp=10-20&ifps=20-60&ifpd=5-10#xawir-WarpInWarp 🇩🇪
-warp://w610e2Py-90N1eoM3-79xv68jY@auto?ifp=10-20&ifps=20-60&ifpd=5-10#
+warp://Qb8d097D-F8W21l4k-d9165LSD@auto?ifp=10-20&ifps=20-60&ifpd=5-10#
 warp://162.159.192.71:939?ifp=10-20&ifps=20-60&ifpd=5-10#162.159.192.71:939&&detour=warp://188.114.98.110:4233?ifp=10-20&ifps=20-60&ifpd=5-10#188.114.98.110:4233
 warp://auto/Sina-MTU1280?ifp=5-10#IR4🇮🇷&&detour=warp://auto/Sina-MTU1120#DE4🇩🇪
 warp://auto/Sina-MTU1280?ifp=5-10#IR5🇮🇷&&detour=warp://auto/Sina-MTU1120#DE5🇩🇪
@@ -71,6 +71,4 @@ warp://auto/Sina-MTU1280?ifp=5-10#IR22🇮🇷&&detour=warp://auto/Sina-MTU1120#
 warp://auto/Sina-MTU1280?ifp=5-10#IR23🇮🇷&&detour=warp://auto/Sina-MTU1120#DE2🇩🇪23
 warp://162.159.195.157:955?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IR24&&detour=warp://162.159.195.69:2371?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IN-Warp24
 warp://162.159.195.69:2371?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IR24&&detour=warp://162.159.195.69:2371?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IN-Warp24
-
-
-162.159.195.69:2371
+warp://Qb8d097D-F8W21l4k-d9165LSD/?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IR26&&detour=warp://Qb8d097D-F8W21l4k-d9165LSD/?ifp=10-20&ifps=20-60&ifpd=5-10#Warp-IN-Warp26
