@@ -1,0 +1,8 @@
+//profile-title: base64:TXItQWxpLVQ=
+//profile-web-page-url: https://github.com/Mr-Ali-T
+//tested-warp-ips-for-rightel
+warp://162.159.195.128:903?ifp=5-10#IPV4IR1🟢&&detour=warp://162.159.195.70:894?ifp=5-10#IPV4DE🟢
+warp://188.114.98.230:3476?ifp=5-10#IPV4IR2🔵&&detour=warp://188.114.99.21:7103?ifp=5-10#IPV4DE🟢
+warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#AutoIR&&detour=warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#AutoDE
+warp://auto#AutoIR✅&&detour=warp://auto#AutoDE
+warp://162.159.192.59:4233?ifp=10-20&ifps=20-60&ifpd=5-10#IPV4IR3&&detour=warp://162.159.195.47:1843?ifp=10-20&ifps=20-60&ifpd=5-10#AutoDE
