@@ -4,11 +4,10 @@
 warp://188.114.98.189:7559/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp1&&detour=warp://188.114.97.69:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our1
 warp://188.114.98.189:7559 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp2&&detour=warp://188.114.97.218:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our2
 warp://188.114.96.210:7559 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp3
-warp://188.114.96.:7559 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp4
 warp://188.114.97.122:7559 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp5&&detour=warp://188.114.99.101:500/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our5
 warp://188.114.96.60:903 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp6&&detour=warp://162.159.195.1:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our6
 warp://188.114.98.57:903 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp7&&detour=warp://188.114.96.161:500/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our7
-warp://188.114.96.:903 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp8&&detour=warp://162.159.192.252:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our8
+&&detour=warp://162.159.192.252:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our8
 warp://188.114.99.18:903 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp9&&detour=warp://162.159.192.33:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our9
 warp://188.114.99.190:7559 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp10&&detour=warp://162.159.192.230:968/Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#det-our10
 warp://188.114.97.195:903 /Mr-Ali-T-MTU1300?ifp=10-20&ifps=40-100&ifpd=20-250#warpONwarp12
