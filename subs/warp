@@ -1,5 +1,11 @@
 //profile-title: base64:TXItQWxpLVQ=
 //profile-web-page-url: https://github.com/Mr-Ali-T
+warp://162.159.195.93:2506/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://162.159.195.93:2506/MTU1280#Main1🇩🇪
+warp://188.114.97.20:988/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://188.114.97.20:988/MTU1280#Main2🇩🇪
+warp://auto/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://auto/MTU1280#Main1🇩🇪
+warp://auto/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://auto/MTU1280#Main2🇩🇪
+warp://2606:4700:d0::cc2d:3eab:d6f8:0685:987/MTU1280?ifp=5-10#IR1🇮🇷&&detour=warp://162.159.192.35:8742/MTU1280#Main1🇩🇪
+warp://2606:4700:d0::ec2b:eb34:8603:652f:988/MTU1280?ifp=5-10#IR2🇮🇷&&detour=warp://188.114.97.20:988/MTU1280#Main2🇩🇪
 warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir1&&detour=warp://auto?ifp=10-20&ifps=20-60&ifpd=5-10#de1
 warp://8E39MuN4-E8296ibH-6u81L9Eh@auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir2&&detour=warp://8E39MuN4-E8296ibH-6u81L9Eh@auto?ifp=10-20&ifps=20-60&ifpd=5-10#de2
 warp://071w4yeJ-Rt25T7d3-0v1o8hm5@auto?ifp=10-20&ifps=20-60&ifpd=5-10#ir3&&detour=warp://071w4yeJ-Rt25T7d3-0v1o8hm5@auto/?ifp=10-20&ifps=20-60&ifpd=5-10#de3
