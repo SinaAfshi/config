@@ -1,0 +1,17 @@
+warp://104.21.103.194?ifp=5-10#WiW&&detour=warp://172.67.58.91?ifp=5-10#WARP
+warp://104.23.130.31?ifp=5-10#WiW&&detour=warp://172.67.176.49?ifp=5-10#WARP
+warp://104.24.255.218?ifp=5-10#WiW&&detour=warp://172.67.169.246?ifp=5-10#WARP
+warp://104.27.63.205?ifp=5-10#WiW&&detour=warp://172.67.168.103?ifp=5-10#WARP
+warp://162.159.153.43?ifp=5-10#WiW&&detour=warp://172.67.131.95?ifp=5-10#WARP
+warp://162.159.240.85?ifp=5-10#WiW&&detour=warp://172.64.91.103?ifp=5-10#WARP
+warp://172.64.173.11?ifp=5-10#WiW&&detour=warp://172.64.194.67?ifp=5-10#WARP
+warp://172.67.183.228?ifp=5-10#WiW
+warp://172.67.58.91?ifp=5-10#WiW
+warp://2606:4700:8ddf:6335:3c7e:703e:c2fe:6514?ifp=5-10#WiW&&detour=warp://2606:4700:9765:a8ca:4496:9bf4:f46a:6745?ifp=5-10#WARP
+warp://2606:4700:8ddf:73ff:6280:76f0:1f1b:2aaa?ifp=5-10#WiW&&detour=warp://2606:4700:9765:d237:7a54:73a4:4c8b:1e1b?ifp=5-10#WARP
+warp://2606:4700:8ddf:766:8365:2bfb:2720:922f?ifp=5-10#WiW&&detour=warp://2606:4700:9765:d237:7a54:73a4:4c8b:1e1b?ifp=5-10#WARP
+warp://2606:4700:91b8:ae03:86fb:82fe:93fe:7f80?ifp=5-10#WiW&&detour=warp://2606:4700:9b06:9296:3914:3855:4c6a:9af8?ifp=5-10#WARP
+warp://2606:4700:91b8:b05f:8996:4110:64d0:f911?ifp=5-10#WiW&&detour=warp://2606:4700:9b06:9296:3914:3855:4c6a:9af8?ifp=5-10#WARP
+warp://2606:4700:9765:75a6:5e96:7a59:f0bf:28d8?ifp=5-10#WiW&&detour=warp://2606:4700:9b06:d175:26b2:803c:149d:37b5?ifp=5-10#WARP
+warp://2606:4700:9765:75a6:5e96:7a59:f0bf:28d8?ifp=5-10#WiW&&detour=warp://2606:4700:9b06:d175:26b2:803c:149d:37b5?ifp=5-10#WARP
+warp://2606:4700:9765:a8ca:4496:9bf4:f46a:6745?ifp=5-10#WiW
