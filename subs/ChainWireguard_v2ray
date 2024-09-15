@@ -77,7 +77,7 @@
     {
       "protocol": "wireguard",
       "settings": {
-        "secretKey": "MJQlQQ1+GlHB0H/eqDJkKNEg5daDb9SgNf92fwc1qmo=",
+        "secretKey": "OLFeyhEgbKa9d1hPGwml7fleezmd0aypBY33UHh/yE4=",
         "address": [
           "172.16.0.2/32",
           "2606:4700:110:8dfd:c56a:6f89:44dc:11a1/128"
@@ -103,7 +103,7 @@
     {
       "protocol": "wireguard",
       "settings": {
-        "secretKey": "oKGXW8p/HnQ5MwPU0wHLN804fvvYI4o5GtSou4Mr30k=",
+        "secretKey": "MFVRNULYr/lbs7XejcKkbLaxW6DmvD+xl4kQICNpa2A=",
         "address": [
           "172.16.0.2/32",
           "2606:4700:110:81ad:51b4:1efe:bd02:5e3b/128"
