@@ -13,7 +13,7 @@ dns:
   prefer-h3: true
   listen: 0.0.0.0:53
   default-nameserver:
-	- 127.0.0.1
+    - 127.0.0.1
     - 1.1.1.1
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -91,7 +91,7 @@ dns:
     - https://sky.rethinkdns.com/dns-query
     - https://1.1.1.2/dns-query
     - https://1.0.0.2/dns-query
-	- https://doh.cleanbrowsing.org/doh/security-filter/
+    - https://doh.cleanbrowsing.org/doh/security-filter/
   fallback:
     - https://adblock.dns.mullvad.net/dns-query
     - https://cloudflare-dns.com/dns-query
@@ -115,8 +115,8 @@ dns:
     - https://1.1.1.2/dns-query
     - https://1.0.0.2/dns-query
     - tls://8.8.4.4:853
-	- tls://1.0.0.1:853
-	- https://doh.cleanbrowsing.org/doh/security-filter/	
+    - tls://1.0.0.1:853
+    - https://doh.cleanbrowsing.org/doh/security-filter/	
   fallback-filter:
     geoip: true
 	geoip-code: IR
