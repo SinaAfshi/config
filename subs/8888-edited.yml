@@ -1,0 +1,327 @@
+mixed-port: 2080
+socks-port: 3081
+http-port: 3082
+redir-port: 3083
+allow-lan: true
+bind-address: 127.0.0.1
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+	- 127.0.0.1
+    - 1.1.1.1
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter:
+  - '*.lan'
+  - cable.auth.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - network-test.debian.org
+  - detectportal.firefox.com
+  - resolver1.opendns.com
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
+  -stun.*
+  - global.turn.twilio.com
+  - global.stun.twilio.com
+  - localhost.*.qq.com
+  - +.logon.battlenet.com.cn
+  - +.logon.battle.net
+  - +.blzstatic.cn
+  - +.cmpassport.com
+  - id6.me
+  - open.e.189.cn
+  - mdn.open.wo.cn
+  - opencloud.wostore.cn
+  - auth.wosms.cn
+  - +.jegotrip.com.cn
+  - +.icitymobile.mobi
+  - +.pingan.com.cn
+  - +.cmbchina.com
+  - +.cmbchina.com.cn
+  - pool.ntp.org
+  - +.pool.ntp.org
+  - ntp.*.com
+  - time.*.com
+  - ntp?.*.com
+  - time?.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - +.ntp.org.cn
+  - time.*.apple.com
+  - *.lan
+  - *.localdomain
+  - *.example
+  - *.invalid
+  - *.localhost
+  - *.test
+  - *.local
+  - *.home.arpa
+  - router.asus.com
+  - localhost.sec.qq.com
+  - localhost.ptlogin2.qq.com
+  nameserver:
+    - https://adblock.dns.mullvad.net/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard-dns.com/dns-query
+    - https://dns.bitdefender.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.kernel-error.de/dns-query
+    - https://dns.nextdns.io/
+    - https://doh.mullvad.net/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://freedns.controld.com/p2
+    - https://cg8ak64nly.cloudflare-gateway.com/dns-query
+    - https://162.159.36.20/dns-query
+    - https://172.64.36.2/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://doh.pub/dns-query
+    - cg8ak64nly.cloudflare-gateway.com
+    - https://dns.cloudflare.com/dns-query
+    - https://sky.rethinkdns.com/dns-query
+    - https://1.1.1.2/dns-query
+    - https://1.0.0.2/dns-query
+	- https://doh.cleanbrowsing.org/doh/security-filter/
+  fallback:
+    - https://adblock.dns.mullvad.net/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard-dns.com/dns-query
+    - https://dns.bitdefender.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.kernel-error.de/dns-query
+    - https://dns.nextdns.io/
+    - https://doh.mullvad.net/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://freedns.controld.com/p2
+    - https://cg8ak64nly.cloudflare-gateway.com/dns-query
+    - https://162.159.36.20/dns-query
+    - https://172.64.36.2/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://doh.pub/dns-query
+    - cg8ak64nly.cloudflare-gateway.com
+    - https://dns.cloudflare.com/dns-query
+    - https://sky.rethinkdns.com/dns-query
+    - https://1.1.1.2/dns-query
+    - https://1.0.0.2/dns-query
+    - tls://8.8.4.4:853
+	- tls://1.0.0.1:853
+	- https://doh.cleanbrowsing.org/doh/security-filter/	
+  fallback-filter:
+    geoip: true
+	geoip-code: IR
+    geosite:
+    -gfw
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+tun:
+  enable: true
+  auto-route: true
+  auto-detect-interface: true
+  listen: 0.0.0.0:53
+  dns-hijack:
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+proxies:
+  - name: 🇺🇸 theepicbrowser.com
+    type: http
+    server: theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸backup.theepicbrowser.com
+    type: http
+    server: backup.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸use.theepicbrowser.com
+    type: http
+    server: use.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸use2.theepicbrowser.com
+    type: http
+    server: use2.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸use3.theepicbrowser.com
+    type: http
+    server: use3.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸usw.theepicbrowser.com
+    type: http
+    server: usw.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇺🇸usw2.theepicbrowser.com
+    type: http
+    server: usw2.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇩🇪de.theepicbrowser.com
+    type: http
+    server: de.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇩🇪de2.theepicbrowser.com
+    type: http
+    server: de2.theepicbrowser.com
+    port: "8888"
+    tls: true
+  - name: 🇨🇦ca.epicbrowser.net
+    type: http
+    server: ca.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇨🇦ca2.epicbrowser.net
+    type: http
+    server: ca2.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇫🇷fr.epicbrowser.net
+    type: http
+    server: fr.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇫🇷fr2.epicbrowser.net
+    type: http
+    server: fr2.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇬🇧uk.epicbrowser.net
+    type: http
+    server: uk.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇬🇧uk2.epicbrowser.net
+    type: http
+    server: uk2.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇳🇱ne.epicbrowser.net
+    type: http
+    server: ne.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇳🇱ne2.epicbrowser.net
+    type: http
+    server: ne2.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇸🇬sg.epicbrowser.net
+    type: http
+    server: sg.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇸🇬sg2.epicbrowser.net
+    type: http
+    server: sg.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇮🇳in.epicbrowser.net
+    type: http
+    server: in.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇮🇳in2.epicbrowser.net
+    type: http
+    server: in2.epicbrowser.net
+    port: "8888"
+    tls: true
+  - name: 🇭🇰 WTT3
+    type: http
+    server: aa583459-s2vz40-s44ks8-7q0w.wtt5.p5pv.com
+    port: "22443"
+    tls: true
+rule-providers:
+  ir:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.yaml"
+    path: ./ruleset/ir.yaml
+    interval: 86400
+  ads:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.yaml"
+    path: ./ruleset/ads.yaml
+    interval: 86400
+  malware:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.yaml"
+    path: ./ruleset/malware.yaml
+    interval: 86400
+  phishing:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.yaml"
+    path: ./ruleset/phishing.yaml
+    interval: 86400
+  cryptominers:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.yaml"
+    path: ./ruleset/cryptominers.yaml
+    interval: 86400
+  apps:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/apps.yaml"
+    path: ./ruleset/apps.yaml
+    interval: 86400
+  ircidr:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.yaml"
+    path: ./ruleset/ircidr.yaml
+    interval: 86400
+  private:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/private.yaml"
+    path: ./ruleset/private.yaml
+    interval: 86400
+  irasn:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/irasn.yaml"
+    path: ./ruleset/irasn.yaml
+    interval: 86400
+
+rules :
+  - RULE-SET,private,DIRECT,no-resolve
+  - RULE-SET,apps,DIRECT
+  - RULE-SET,ads,REJECT
+  - RULE-SET,malware,REJECT
+  - RULE-SET,phishing,REJECT
+  - RULE-SET,cryptominers,REJECT
+  - RULE-SET,ir,DIRECT
+  - RULE-SET,ircidr,DIRECT
+  - RULE-SET,irasn,DIRECT
+  - MATCH,PROXY
