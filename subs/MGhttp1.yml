@@ -20,7 +20,7 @@ proxies:
   - {"type":"vmess","name":"ZZ-Cool-CA 16","ws-opts":{"path":"/eisasqa","headers":{"host":"foxca2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"ZZ-Cool-CA 17","ws-opts":{"path":"/sshocean","headers":{"host":"ca2.v2rayserv.com"}},"server":"ca2.v2rayserv.com","port":"80","uuid":"e3eba3ac-5bea-409f-ac5c-6c964e04d0c4","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"ZZ-Cool-CA 3","server":"221.181.185.153","port":"16318","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"ZZ-Cool-CA 4","server":"64.112.126.4","port":"443","uuid":"8560c0b4-6f4b-45e6-9906-777650dcc310","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"ZZ-Cool-CA 4","server":"64.112.126.4","port":"443","uuid":"8560c0b4-6f4b-45e6-9906-777650dcc310","alterId":"0","cipher":"auto","network":"tcp"c}
   - {"type":"vmess","name":"ZZ-Cool-CA 5","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"ecdyd-1049-v2-7.hkg-r-kcd-c.ap.cjhh.beauty","port":"29938","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"ZZ-Cool-CA 7","server":"pf.napsternetv.com","port":"40046","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":tru
+  - {"type":"vmess","name":"ZZ-Cool-CA 7","server":"pf.napsternetv.com","port":"40046","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":tru}
   - {"type":"vmess","name":"ZZ-Cool-CA 70","server":"pf.napsternetv.com","port":"40046","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
