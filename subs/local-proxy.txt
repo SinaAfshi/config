@@ -1,5 +1,7 @@
 udp://1.1.1.1
 tls://1.0.0.1
+socks5://localhost:9150#SOCKS-localhost-9150
+socks5://127.0.0.1:9150#SOCKS-127.0.0.1-9150
 socks5://localhost:8087#SOCKS-localhost-8087
 socks5://localhost:8086#SOCKS-localhost-8086
 socks5://localhost:6081#SOCKS-localhost-6081
@@ -48,8 +50,9 @@ socks5://192.168.43.93:9050#socks-192.168.43.93:9050
 socks5://192.168.43.93:9050#socks-192.168.43.93:3085
 socks5://192.168.43.93:8086#socks-192.168.43.93:8086
 socks5://192.168.43.93:8087#socks-192.168.43.93:8087
-https://1.0.0.1
 http://localhost:6082#HTTP-localhost-6082
+http://localhost:8118#HTTP-localhost-8118
+http://127.0.0.1:8118#HTTP-127-0-0-1-8118
 http://localhost:5080#HTTP-localhost-5080
 http://localhost:3085#HTTP-localhost-3085
 http://localhost:1080#HTTP-localhost-1080
